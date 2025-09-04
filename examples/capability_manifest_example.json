@@ -1,0 +1,14 @@
+{
+  "agent": "refactor_assistant",
+  "version": "0.1.0",
+  "capabilities": [
+    {"id": "code.refactor"},
+    {"id": "code.analyze"}
+  ],
+  "requires_core": ">=0.2,<0.3",
+  "requires_providers": ">=0.2,<0.3",
+  "metadata": {
+    "description": "Refactors code and provides structural analysis",
+    "author": "EvoSuite Team"
+  }
+}
